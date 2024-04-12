@@ -1,0 +1,56 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 6rem 4rem;
+}
+.error-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.fa-regular,
+.far {
+  font-weight: 400;
+  padding-left: 6px;
+}
+
+.exclamation-circle {
+  width: 14px;
+  position: fixed;
+}
+
+.btn-primary {
+  inline-size: -webkit-fill-available;
+  border-radius: 2px;
+}
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: var(--bs-modal-color);
+  pointer-events: auto;
+  background-color: var(--bs-modal-bg);
+  background-clip: padding-box;
+
+  justify-items: center;
+}
+.modal-header {
+  text-align: center;
+}
+
+.modal-footer {
+  display: flex;
+  flex-wrap: wrap;
+  inline-size: max-content;
+  padding-inline: 13rem;
+  justify-content: center;
+}
+
+h5 {
+  padding-left: 7rem;
+}
